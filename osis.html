@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>OSIS | SMA PGRI 13 Tanjung Redeb</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+     /* PETA KONSEP OSIS */
+.peta-osis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box {
+    width: 320px;
+    background-color: #0a4d8c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.box span {
+    display: block;
+    margin-top: 6px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ketua {
+    background-color: #0a4d8c;
+}
+
+.wakil {
+    background-color: #0f6fc2;
+}
+
+.anggota {
+    background-color: #1a86e0;
+}
+
+.siswa {
+    background-color: #3aa0f3;
+}
+
+.garis {
+    width: 2px;
+    height: 30px;
+    background-color: #555;
+}
+
+        /* HEADER */
+        header {
+            background-color: #0a4d8c;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .header-container img {
+            width: 80px;
+            height: auto;
+        }
+
+        /* NAVBAR */
+        nav {
+            background-color: #083a66;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: #0a4d8c;
+            font-weight: bold;
+        }
+
+        /* DROPDOWN */
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #083a66;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            z-index: 999;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul li ul li a {
+            padding: 12px 15px;
+        }
+
+        /* CONTENT */
+        .container {
+            background: white;
+            margin: 30px;
+            padding: 25px;
+            border-radius: 6px;
+        }
+
+        h2 {
+            color: #0a4d8c;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #083a66;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="header-container">
+        <img src="img/logo-pgri.png" alt="Logo PGRI">
+        <div>
+            <h1>SMA PGRI 13 TANJUNG REDEB</h1>
+            <p>Mewujudkan Generasi Cerdas, Berkarakter, dan Berprestasi</p>
+        </div>
+    </div>
+</header>
+
+<!-- NAVBAR -->
+<nav>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+
+        <li>
+            <a href="#">Profil Sekolah</a>
+            <ul>
+                <li><a href="sejarah.html">Sejarah</a></li>
+                <li><a href="visi-misi.html">Visi & Misi</a></li>
+                <li><a href="struktur-organisasi.html">Struktur Organisasi</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Kesiswaan</a>
+            <ul>
+                <li><a href="osis.html" class="active">OSIS</a></li>
+                <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+<h2>Struktur Organisasi OSIS</h2>
+
+<div class="peta-osis">
+
+    <div class="box ketua">
+        <strong>Ketua OSIS</strong>
+        <span>Ferry Alfahrezi Albert Kalled</span>
+    </div>
+
+    <div class="garis"></div>
+
+    <div class="box wakil">
+        <strong>Wakil Ketua OSIS</strong>
+        <span>Novayu hayuukkk</span>
+    </div>
+
+    <div class="garis"></div>
+
+    <div class="box siswa">
+        <strong>Anggota Osis</strong>
+        <span>Yang Mengikuti & Berpartisipasi</span>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 SMA PGRI 13 Tanjung Redeb | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

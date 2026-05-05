@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Struktur Organisasi | SMA PGRI 13 Tanjung Redeb</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+     /* PETA KONSEP STRUKTUR ORGANISASI */
+.peta-organisasi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box {
+    width: 340px;
+    background-color: #0a4d8c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.box span {
+    display: block;
+    margin-top: 6px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.box.utama {
+    background-color: #083a66;
+}
+
+.box.siswa {
+    background-color: #1a86e0;
+}
+
+.garis {
+    width: 2px;
+    height: 25px;
+    background-color: #555;
+}
+
+        header {
+            background-color: #0a4d8c;
+            color: white;
+            padding: 20px;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            text-align: left;
+        }
+
+        .header-container img {
+            width: 80px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #083a66;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background-color: #0a4d8c;
+        }
+
+        .container {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #0a4d8c;
+        }
+
+        ul.org-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.org-list li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        ul.org-list li span {
+            font-weight: normal;
+            display: block;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #083a66;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <img src="img/logo-pgri.png" alt="Logo PGRI">
+        <div>
+            <h1>SMA PGRI 13 TANJUNG REDEB</h1>
+            <p>Mewujudkan Generasi Cerdas, Berkarakter, dan Berprestasi</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        </ul>
+<div class="container">
+    <h2>Struktur Organisasi</h2>
+
+    <div class="peta-organisasi">
+
+        <div class="box utama">
+            Kepala Sekolah
+            <span>Drs. H. Abdul Wahab</span>
+        </div>
+
+        <div class="garis"></div>
+
+        <div class="box">
+            Koordinator Tata Usaha
+            <span>Ummulhadi, S.Kom</span>
+        </div>
+
+        <div class="garis"></div>
+
+        <div class="box">
+            Koordinator Lab. Komputer
+            <span>Miri Yohanis, A.Md</span>
+        </div>
+
+        <div class="garis"></div>
+
+        <div class="box">
+            Teknisi
+            <span>Yosep Kurniawan, S.Th</span>
+        </div>
+
+        <div class="garis"></div>
+
+        <div class="box">
+            Laboran
+            <span>Guru Informatika</span>
+        </div>
+
+        <div class="garis"></div>
+
+        <div class="box siswa">
+            Siswa dan Siswi
+            <span>Seluruh peserta didik SMA PGRI 13 Tanjung Redeb</span>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 SMA PGRI 13 Tanjung Redeb | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Peta Konsep Sekolah | SMA PGRI 13 Tanjung Redeb</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0a4d8c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #083a66;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    padding: 15px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #0a4d8c;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* BOX */
+.box {
+    background: white;
+    border: 2px solid #0a4d8c;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 70%;
+    position: relative;
+}
+
+/* PANAH KE BAWAH */
+.arrow-down::after {
+    content: "↓";
+    font-size: 28px;
+    color: #0a4d8c;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ROW HORIZONTAL */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.row .box {
+    width: auto;
+}
+
+/* PANAH KE KANAN */
+.arrow-right {
+    font-size: 24px;
+    color: #0a4d8c;
+    font-weight: bold;
+}
+
+footer {
+    background: #083a66;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .arrow-right {
+        display: none;
+    }
+    .box {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>SMA PGRI 13 TANJUNG REDEB</h1>
+    <p>Peta Konsep / Denah Sekolah</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="peta-sekolah.html">Peta Sekolah</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <div class="box arrow-down">Gerbang Sekolah</div>
+
+    <div class="box arrow-down">Kantor Tata Usaha</div>
+
+    <div class="box arrow-down">Ruang Kepala Sekolah & Ruang Guru</div>
+
+    <div class="row">
+        <div class="box">Kelas X</div>
+        <div class="arrow-right">→</div>
+        <div class="box">Kelas XI</div>
+        <div class="arrow-right">→</div>
+        <div class="box">Kelas XII</div>
+    </div>
+
+    <div class="box arrow-down">Perpustakaan – UKS – Laboratorium</div>
+
+    <div class="box arrow-down">Lapangan Upacara / Olahraga</div>
+
+    <div class="row">
+        <div class="box">Musholla</div>
+        <div class="arrow-right">→</div>
+        <div class="box">Kantin</div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 SMA PGRI 13 Tanjung Redeb | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
